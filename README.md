@@ -79,6 +79,7 @@ Las contribuciones son bienvenidas. Si deseas colaborar con el proyecto Owichan:
 
 Si tienes preguntas, sugerencias o quieres colaborar, puedes encontrarnos en:
 
-- EUSA
+[EUSA - Ciberseguridad](https://fpcampuscamara.es/ciberseguridad/)
+
 
 ¡Gracias por apoyar Owichan! 🛡️🔥
