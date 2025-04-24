@@ -38,12 +38,12 @@ conectados.
 # Uso
 
   1. Ponemos la interfaz modo monitor.
-
-     sudo ip link set wlan0 down
-     sudo iw dev wlan0 set type monitor
-     sudo ip link set wlan0 up
-     iwconfig  
-
+     
+     1. sudo ip link set wlan0 down
+     2. sudo iw dev wlan0 set type monitor
+     3. sudo ip link set wlan0 up
+     4. iwconfig
+  
   3. Ejecutar OWISAM-DI:
 
       sudo python3 owisam_di.py \
