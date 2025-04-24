@@ -1,0 +1,39 @@
+{
+  "access_points": [
+    {
+      "bssid": "14:59:60:f2:84:3b",
+      "ssid": "MOVISTAR_8939",
+      "channel": 6,
+      "crypto": [
+        "{'WPA2/PSK'}"
+      ],
+      "signal": -22
+    },
+    {
+      "bssid": "48:c2:23:c3:98:f0",
+      "ssid": "Lowi98EF",  
+      "channel": 4,
+      "crypto": [
+        "{'WPA2/PSK'}"
+      ],
+      "signal": -54
+    },
+    {
+      "bssid": "66:e3:20:e6:d5:b1",
+      "ssid": "MBUX 81683",
+      "channel": 6,
+      "crypto": [    
+        "{'WPA3-transition/PSK'}"
+      ],
+      "signal": -72
+    }
+  ],
+  "clients": [
+    "bc:c7:db:53:9c:28",
+    "fa:g1:1c:2d:f8:27",
+    "7e:dd:db:29:f7:56"
+  ]
+}
+
+
+
