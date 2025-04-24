@@ -18,5 +18,5 @@ Para hacer la practica debemos crearnos un archivo.py dentro de nuestra maquina 
 Para instalar python debemos de usar el comando: ``sudo apt install python3 -y``
 ![](https://github.com/CarlosBasulto/Owichan/blob/main/OWISAM-TR-007-009-Mario-Zayas-Mario-Moreno/imagenes/python3.png)
 
-Para crear el archivo usamos el comando: ``nombredelarchivo.py``
+Para crear el archivo usamos el comando: ``sudo nano nombredelarchivo.py``
 ![](https://github.com/CarlosBasulto/Owichan/blob/main/OWISAM-TR-007-009-Mario-Zayas-Mario-Moreno/imagenes/archivo.png)
