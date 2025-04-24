@@ -13,15 +13,16 @@ el adaptador de red y ya detectaria la red.
 
 Ahora se deben descargar los drivers:
 
-``git clone https://github.com/Khatcode/AWUS036ACH-Automated-Driver-Install
-sudo chmod +x AlfaSetup.sh
-./AlfaSetup.sh
- `` 
-![](https://github.com/CarlosBasulto/Owichan/blob/main/OWISAM-TR-007-009-Mario-Zayas-Mario-Moreno/imagenes/git.png)
+``git clone https://github.com/Khatcode/AWUS036ACH-Automated-Driver-Install``
+
+``sudo chmod +x AlfaSetup.sh``
+
+``./AlfaSetup.sh``
+![](https://github.com/CarlosBasulto/Owichan/blob/main/OWISAM-TR-007-009-Mario-Zayas-Mario-Moreno/imagenes/git.PNG)
 
 Una vez descargados los drivers, podremos ver que tenemos una nueva interfaz de red llamada Wlan0.
 
-![](https://github.com/CarlosBasulto/Owichan/blob/main/OWISAM-TR-007-009-Mario-Zayas-Mario-Moreno/imagenes/wlan0.png)
+![](https://github.com/CarlosBasulto/Owichan/blob/main/OWISAM-TR-007-009-Mario-Zayas-Mario-Moreno/imagenes/wlan0.PNG)
 
 Descargamos hostapd para configurar la red.
 
@@ -29,26 +30,26 @@ Descargamos hostapd para configurar la red.
 
 Creamos el fichero de configuración de /etc/hostapd/hostapd.conf con la siguiente información:
 
-![](https://github.com/CarlosBasulto/Owichan/blob/main/OWISAM-TR-007-009-Mario-Zayas-Mario-Moreno/imagenes/hostapd.png)
+![](https://github.com/CarlosBasulto/Owichan/blob/main/OWISAM-TR-007-009-Mario-Zayas-Mario-Moreno/imagenes/hostapd.PNG)
 
 Comprobamos que el nuevo servicio esté activo, de no estarlo, lo activaremos.
 
 ``sudo systemctl unmask hostapd``
 
 ``sudo systemctl status hostapd``
-![](https://github.com/CarlosBasulto/Owichan/blob/main/OWISAM-TR-007-009-Mario-Zayas-Mario-Moreno/imagenes/servicio.png)
+![](https://github.com/CarlosBasulto/Owichan/blob/main/OWISAM-TR-007-009-Mario-Zayas-Mario-Moreno/imagenes/servicio.PNG)
 
 `` sudo systemctl start hostapd``
 
 `` sudo hostapd /etc/hostapd/hostapd.conf``
-![](https://github.com/CarlosBasulto/Owichan/blob/main/OWISAM-TR-007-009-Mario-Zayas-Mario-Moreno/imagenes/servicio2.png)
+![](https://github.com/CarlosBasulto/Owichan/blob/main/OWISAM-TR-007-009-Mario-Zayas-Mario-Moreno/imagenes/servicio2.PNG)
 
 Ahora debemos descargar las siguientes librerias para poder asignarle una IP a nuestra tarjeta de red.
 
 ``sudo apt install build-essential libelf-dev dkms``
 
 ``sudo ip addr add 192.168.1.1/24 dev wlan0``
-![](https://github.com/CarlosBasulto/Owichan/blob/main/OWISAM-TR-007-009-Mario-Zayas-Mario-Moreno/imagenes/ip.png)
+![](https://github.com/CarlosBasulto/Owichan/blob/main/OWISAM-TR-007-009-Mario-Zayas-Mario-Moreno/imagenes/ip.PNG)
 
 
 ## **Características para que el script.py funcione**
