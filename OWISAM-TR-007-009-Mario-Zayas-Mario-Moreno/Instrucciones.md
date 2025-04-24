@@ -15,7 +15,7 @@ el adaptador de red y ya detectaria la red.
 
 Para hacer la practica debemos crearnos un archivo.py dentro de nuestra maquina kali, para ello debemos de tener instalado python3
 
-Para instalar python debemos de usar el comando: sudo apt install python3 -y
+Para instalar python debemos de usar el comando: ``sudo apt install python3 -y``
 
 ![](https://github.com/CarlosBasulto/Owichan/blob/main/OWISAM-TR-007-009-Mario-Zayas-Mario-Moreno/imagenes/python3.png)
 
