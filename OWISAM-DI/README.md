@@ -24,33 +24,33 @@ conectados.
 
   1. Clonar el repositorio:
 
-   git clone https://github.com/CarlosBasulto/Owichan.git
+     git clone https://github.com/CarlosBasulto/Owichan.git
      
   2. Crear entorno virtual (Opcional):
-   
-   python3 -m venv venv
-   source venv/bin/activate
+
+     python3 -m venv venv
+     source venv/bin/activate
     
   3. Instalar dependencias:
 
-   pip3 install scapy
+     pip3 install scapy
 
 # Uso
 
   1. Ponemos la interfaz modo monitor.
-     
-   sudo ip link set wlan0 down
-   sudo iw dev wlan0 set type monitor
-   sudo ip link set wlan0 up
-   iwconfig  
 
-  2. Ejecutar OWISAM-DI:
+     sudo ip link set wlan0 down
+     sudo iw dev wlan0 set type monitor
+     sudo ip link set wlan0 up
+     iwconfig  
+
+  3. Ejecutar OWISAM-DI:
 
       sudo python3 owisam_di.py \
    --interface wlan0 \
    --output resultados.json \
    --wait-time 10
 
-  3. Ver ayuda:
+  4. Ver ayuda:
 
      python3 owisam_di.py -h
