@@ -8,10 +8,10 @@ Owichan es un conjunto de herramientas diseñadas para evaluar la seguridad de r
 # OWISAM-DI (Descubrimiento de dispositivos)
 
 # Descripción
-📌 Objetivo: Identificar dispositivos Wi-Fi en el entorno.
-📌 Función: Capturar paquetes Beacon y Probe Request para detectar APs y clientes
-conectados.
-📌 Salida esperada: Lista de SSID, BSSID y clientes conectados.
+
+  1. Objetivo: Identificar dispositivos Wi-Fi en el entorno.
+  2. Función: Capturar paquetes Beacon y Probe Request para detectar APs y clientes conectados.
+  3. Salida esperada: Lista de SSID, BSSID y clientes conectados.
 
 # Requisitos
 
