@@ -1,4 +1,4 @@
-# Herramienta OWISAM-TR-007-009: WiGuard Auditoría de Seguridad Wi-Fi y DNS
+# Herramienta OWISAM-TR-001-007-009: WiGuard Auditoría de Seguridad Wi-Fi y DNS
 
 WiGuard es una herramienta desarrollada en Python para sistemas Kali Linux, diseñada con el objetivo de detectar redes Wi-Fi no autorizadas y clientes que intentan conectarse a redes inseguras, así como verificar la integridad de las conexiones DNS y prevenir ataques de tipo DNS Spoofing.
 
@@ -35,7 +35,7 @@ Esta utilidad integra análisis de red inalámbrica en tiempo real con auditorí
 
 - Validar dominios mediante comparación de IP legítima y activa.
 
-- Proveer una herramienta todo-en-uno para la validación OWISAM-TR-007 y OWISAM-TR-009.
+- Proveer una herramienta todo-en-uno para la validación OWISAM-TR-001, OWISAM-TR-007 y OWISAM-TR-009.
 
 ---
 
