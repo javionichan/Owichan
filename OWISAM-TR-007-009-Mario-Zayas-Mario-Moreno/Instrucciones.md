@@ -59,7 +59,7 @@ Una vez hecho esto, debemos salirnos del script y matar cualquier proceso que in
 ``sudo airmon-ng check kill``  este comando sirve para matar esos procesos.
 Luego deberemos de levantar la red en modo monitor
 ``sudo airmon-ng start wlan0 ``
-![](https://github.com/CarlosBasulto/Owichan/blob/main/OWISAM-TR-007-009-Mario-Zayas-Mario-Moreno/imagenes/red_monitor.PNG)
+![](https://github.com/CarlosBasulto/Owichan/blob/main/OWISAM-TR-007-009-Mario-Zayas-Mario-Moreno/imagenes/red_monitor.png)
 
 
 ## **Características para que el script.py funcione**
