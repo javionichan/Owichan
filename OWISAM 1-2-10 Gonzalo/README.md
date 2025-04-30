@@ -1,10 +1,10 @@
 Estas son dos herramientas para el TR01, el TR02 y el TR10, de identificar redes abiertas o WEP y otra para identificar la potencia de la señal de una red wifi
 
-#🛡️ WiFiOpenWEP
+# 🛡️ WiFiOpenWEP
 
 WiFiOpenWEP es una herramienta de auditoría Wi-Fi desarrollada en Python para distribuciones Linux. Su objetivo principal es detectar redes inalámbricas abiertas o cifradas con WEP, consideradas vulnerables según estándares de seguridad, incluyendo la norma OWISAM-TR-007
 
-##📌 Características
+# 📌 Características
 
 - Escaneo de redes Wi-Fi en modo monitor.
 - Detección de redes **abiertas (OPN)** y con cifrado **WEP**.
@@ -12,14 +12,14 @@ WiFiOpenWEP es una herramienta de auditoría Wi-Fi desarrollada en Python para d
 - Soporte para adaptadores en modo monitor (ej. `wlan0mon`).
 - Preparado para su uso en auditorías de seguridad (Kali Linux).
 
-##⚙️ Requisitos
+# ⚙️ Requisitos
 
 - **Python 3.x**
 - **Kali Linux** (u otra distro con herramientas como `airodump-ng`)
 - Permisos de **root**
 - Adaptador Wi-Fi compatible con **modo monitor**
 
-##🧪 Instalación
+# 🧪 Instalación
 
 Clona este repositorio:
 ```bash
