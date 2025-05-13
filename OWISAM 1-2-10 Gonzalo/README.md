@@ -24,4 +24,18 @@ Clona este repositorio:
 ```bash
 git clone https://github.com/tuusuario/WiFiOpenWEP.git
 cd WiFiOpenWEP
+```
 
+# 🛠️ Modo de Empleo
+
+**TR001-002 OWISAM.py**
+Pasaremos el parámetro -i para especificar la interfaz en la que queremos realizar las pruebas (añade `-t` si deseas especificar el tiempo).
+```bash
+sudo python3 TR001-002 OWISAM.py -i <interfaz> [-t <tiempo_de_escaneo>]
+```
+
+**TR010.py**
+Al igual que con el script anterior, añadimos la información de la interfaz de red.
+```bash
+sudo python3 TR010.py -i <interfaz>
+```
