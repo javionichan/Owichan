@@ -39,3 +39,4 @@ As with the previous script, provide the name of the wireless interface:
 ```bash
 sudo python3 TR010.py -i <interface>
 ```
+Created by: Antonio Rodríguez Vázquez, Gonzalo López-Escobar García, Alejandro Pérez Fuentes
