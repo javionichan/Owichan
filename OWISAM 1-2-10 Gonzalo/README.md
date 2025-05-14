@@ -39,3 +39,6 @@ Al igual que con el script anterior, añadimos la información de la interfaz de
 ```bash
 sudo python3 TR010.py -i <interfaz>
 ```
+
+
+Creado por: Antonio Rodríguez Vázquez, Gonzalo López-Escobar García, Alejandro Pérez Fuentes
