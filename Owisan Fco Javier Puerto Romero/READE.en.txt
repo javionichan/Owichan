@@ -1,0 +1,81 @@
+🛡️ Owichan - Wi-Fi Security Auditing Tool 📡
+📝 Description
+Owichan is a Python-based project designed to audit Wi-Fi networks and detect common security vulnerabilities, such as:
+
+-🔓 Open networks
+
+-🔐 WEP encryption
+
+-📶 WPS enabled
+
+-⚠️ And more...
+
+This script uses tools like Scapy, Aircrack-ng, and Wireshark/Tshark to analyze wireless networks and generate detailed reports.
+
+⚠️ Note: This project is intended for educational purposes and authorized audits only. Improper use may violate local laws.
+
+🚨 Detected Vulnerabilities
+The script detects the following vulnerabilities:
+
+-🔓 Open Wi-Fi networks (no encryption)
+
+-🔐 WEP encryption (obsolete and insecure)
+
+-📶 WPS enabled (vulnerable to brute-force attacks)
+
+-🧩 Other vulnerabilities (like weak passwords or insecure authentication) can be implemented through additional modules.
+
+🧰 Technologies Used
+-🐍 Python / Scapy: Packet capture and analysis
+
+-🛠️ Aircrack-ng: Penetration testing (e.g., WPS)
+
+-🔍 Wireshark / Tshark: Traffic analysis (optional)
+
+-💻 Bash: System commands
+
+📦 Requirements
+🐧 Linux-based OS (Recommended: Kali Linux or Ubuntu)
+
+📡 Wi-Fi adapter with monitor mode support (e.g., Atheros or Ralink chipset)
+
+🔧 Dependencies:
+sudo apt-get install aircrack-ng wireshark tshark python3-scapy
+pip install scapy
+
+🔐 Root permissions to run the script
+
+⚙️ Installation
+Clone or download the repository:
+git clone <REPOSITORY_URL>
+cd owichan
+Make sure all dependencies are installed (see Requirements)
+
+Give execution permissions to the script:
+chmod +x wifi_audit.py
+
+▶️ Usage
+Run the script with root permissions:
+sudo python3 wifi_audit.py
+📥 Enter your Wi-Fi interface name (e.g., wlan0)
+⏱️ The script will scan for networks for 30 seconds
+📄 It will generate a console report and a log file (wifi_audit.log)
+
+📊 Sample Output
+==================================================
+🛡️ WI-FI SECURITY AUDIT REPORT 🛡️
+==================================================
+📅 Date: 2025-05-14 19:27:00  
+📶 Interface used: wlan0  
+
+🔍 Detected vulnerabilities:
+
+📡 Network: Guest-WiFi (BSSID: 00:11:22:33:44:55)
+  - 🔓 Open network detected (no encryption)  
+    ⚠️ Risk: Unauthorized access and MITM
+
+📡 Network: OldRouter (BSSID: 00:66:77:88:99:AA)
+  - 🔐 WEP encryption detected  
+    ⚠️ Risk: Outdated encryption, vulnerable to cracking
+  - 📶 WPS enabled  
+    ⚠️ Risk: Vulnerable to brute-force attacks
